@@ -43,7 +43,7 @@ public class HomePageTest extends TestBase{
 			
 			boolean flag=homePage.validateGrangeImage();
 			
-			Reporter.log("Flag is " +flag);
+			Reporter.log("Flag is - " +flag);
 			
 			Assert.assertTrue(flag);
 		}
