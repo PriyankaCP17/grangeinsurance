@@ -42,6 +42,9 @@ public class HomePageTest extends TestBase{
 		public void grangeLogoImageTest(){
 			
 			boolean flag=homePage.validateGrangeImage();
+			
+			Reporter.log("Flag is " +flag);
+			
 			Assert.assertTrue(flag);
 		}
 		
