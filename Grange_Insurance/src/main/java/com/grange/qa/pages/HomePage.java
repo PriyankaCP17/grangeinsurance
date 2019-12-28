@@ -8,6 +8,8 @@ import com.grange.qa.base.TestBase;
 
 public class HomePage extends TestBase{
 	
+	//This is home Page class
+	
 	//Page factory : Object Repository
 	
 	//'Login '  button on  home page
